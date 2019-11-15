@@ -68,6 +68,8 @@ var options = {
     //amsPortTarget: 851 
     //The timeout for PLC requests
     //timeout: 500
+    //The source IP if you want to explicitly set it
+    //sourceIp: "192.168.10.10"
 }
 
 var client = ads.connect(options, function() {
